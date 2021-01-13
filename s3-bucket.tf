@@ -5,6 +5,7 @@ module "s3-bucket" {
   bucket_prefix = "rt-"
   tags = {
       Owner = "Gaurav"
-      Department = "DevOps"
+      Department = "devops"
+      Billable = "yes"
   }
 }
